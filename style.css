@@ -1,0 +1,233 @@
+
+body{
+	line-height: 1,5;
+	font-family: 'poppins', sans-serif;
+}
+.navbar{
+	position: relative;	
+	z-index: 1;
+}
+.navbar-brand {
+	font-family: Viga; 		/*memanggil model font*/ 
+	font-size: 20px;		/*ukuran font*/
+}
+.judul{
+	font-family: 'League Spartan', sans-serif;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	color: #2e7dbf;
+}
+/*jumbotron*/
+.jumbotron{
+	background-image: url(img/tes7.png);			/*memanggil gambar*/
+	background-size: cover;							/*supaya gambar menyesuaikan jumbotron*/
+	height: 540px;/*tinggi jumbotron dari atas kebawah*/
+	position: relative;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	background-color: white;
+}
+.jumbotron .container{
+	z-index: 1;
+	position :relative;
+}
+.c-item{
+	height: 100%;
+	
+}
+.bdiv{
+	background-color: #0099ff ;
+}
+
+.c-image{
+	height: 100px;
+	object-fit: cover;
+	filter: brightness(0.6);
+}
+span{
+	/*color: #2e765e;*/
+	/*font-weight:bold;*/
+}
+.a{
+	color: blue;
+	font-weight:bold;
+}
+.baris{
+	text-align: center;
+	font-weight: bold;
+	color: #2e7dbf;
+}
+.baris2{
+	text-align: justify;
+}
+.tombol {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	height: 20vh;
+}
+.warnabc{
+	color: red;
+}
+
+.whatsapp-button {
+	text-align: center;
+}
+
+.whatsapp-button a {
+	display: inline-block;
+	background-color: #25D366; /* Warna latar belakang tombol WhatsApp */
+	color: #fff; /* Warna teks tombol */
+	font-size: 16px;
+	text-decoration: none;
+	padding: 10px 10px;
+	border-radius: 5px;
+}
+
+.whatsapp-button a img {
+	vertical-align: middle;
+	
+}
+td{
+	font-weight: ;
+}
+.font2{
+	font-family: arial;
+	font-weight: bold;
+	color: green;
+	font-size: 25px;
+}
+.font{
+	font-family: arial;
+	font-weight: bold;
+	color: #135589;
+	font-size: 	25px;		
+}
+
+.row .left{
+	overflow: hidden;
+}
+.row .left img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.row .right .content{
+	padding-left .content{
+		padding-left: 20px;
+	}
+	.row .right .content{
+		font-size: 16px;
+		line-height: 26px;
+		padding-bottom: 15px;
+	}
+}
+.workingspace{
+	margin-top: 40px;
+	text-align: center;
+
+}
+.workingspace h3{
+	font-size: 52px;
+	font-weight: 200;
+	margin-top: 30px;
+}
+
+.workingspace h3 span{
+	font-weight: 500;
+}
+.workingspace p{
+	font-size: 24px;
+	color: #ACACAC;
+	font-weight: 200;
+	margin: 30px 0;
+}
+
+
+
+.footer{
+	background-image: linear-gradient(#ffffff, #d2ecad);
+	padding: 70px 0;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+}
+
+.footer span{
+	font-size: 24px;
+	font-weight: bolder;
+}
+.footer-col .social-links a:hover{
+	color: #24263b;
+	background-color: #ffffff;
+
+}
+@media(max-width: 767px){
+	.footer-col{
+		width: 50%;
+		margin-bottom: 30px;
+	}
+}
+@media(max-width: 574px){
+	.footer-col{
+		width: 100%
+	}
+}
+
+
+
+
+/*desktop version*/
+@media (min-width: 992px) {
+	.jumbotron{
+		background-image: url(img/BackGround.jpg);			/*memanggil gambar*/
+		background-size: cover;							/*supaya gambar menyesuaikan jumbotron*/
+		/*tinggi jumbotron dari atas kebawah*/
+		position: relative;
+		color: white;
+		font-family: 'League Spartan', sans-serif;
+	}
+	.jumbotron .container{
+		z-index: 1;
+		position :relative;
+	}
+	*{
+		box-sizing: border-box;
+	}
+	body{
+		margin: 0;
+		background-color: ;
+	}
+	.containerslide{
+		background-color: #2e765e;
+		padding: 100px 0 0 0;
+	}
+	.content-slide{
+		max-width: 1000px;
+		position: relative;
+		margin:	auto;
+	}
+
+	.imgslide{
+		display: block;
+	}
+
+	.c-item{
+		width: 700px;
+	}
+	.gambarj{
+		width: 700px;
+	}
+
+	.workingspace{
+		text-align: left;
+	}
+	.workingspace .gbr img{
+		width: 400px;
+	}
+
+}
